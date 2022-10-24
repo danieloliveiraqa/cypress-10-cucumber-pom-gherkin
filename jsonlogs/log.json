@@ -1,0 +1,76 @@
+[
+  {
+    "description": "    Feature Login page will work depending on the user credentials.",
+    "elements": [
+      {
+        "description": "",
+        "id": "logando-no-site;verificar-sucesso-ao-logar-no-site",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verificar sucesso ao logar no site",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que um usuario abre o demoQA",
+            "result": {
+              "duration": 6625000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "usuario digitar seu nome de usuario \"daniels\"",
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 15,
+            "name": "usuario digitar sua senha \"@OkOkOK123\"",
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "ele clica no botao login",
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 11,
+            "name": "@CT-02"
+          }
+        ]
+      }
+    ],
+    "id": "logando-no-site",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Logando no site",
+    "uri": "cypress\\e2e\\features\\login.feature"
+  }
+]

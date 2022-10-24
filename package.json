@@ -4,7 +4,8 @@
   "description": "cypress 10 with bdd-page",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress:execution": "cypress run"
   },
   "keywords": [
     "cypress",
@@ -19,6 +20,7 @@
     "esbuild": "^0.15.12"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^13.0.2"
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "multiple-cucumber-html-reporter": "^3.0.1"
   }
 }

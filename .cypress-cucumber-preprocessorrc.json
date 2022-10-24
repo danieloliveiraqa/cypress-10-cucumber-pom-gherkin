@@ -1,4 +1,9 @@
 {
+    "json": {
+      "enabled": true,
+      "output": "jsonlogs/log.json",
+      "formater": "cucumber-json-formatter.exe"
+    },
     "stepDefinitions": [
         "[filepath]/**/*.{js,ts}",
         "[filepath].{js,ts}",
