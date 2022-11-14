@@ -1,4 +1,4 @@
-# Cypress 10 + Cucumber + BDD + Gherkin + Report HTML
+# Cypress 10 + Cucumber + BDD + Gherkin + Report HTML + Page Objects
 
 <p align="left"> <img src="https://guisalmeida.com/static/d625d911d0062643ecc86729b8ecf061/b5381/cypress-cover.png" alt="mayribeirofernandes" /> </p>
 
